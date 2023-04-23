@@ -8,7 +8,7 @@ public class Submarine implements Swim {
     }
 
     public String getThing(){
-        return this.submarine;
+        return "submarine";
     }
 
     @Override

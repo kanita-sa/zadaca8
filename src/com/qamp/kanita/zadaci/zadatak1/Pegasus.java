@@ -7,7 +7,7 @@ public class Pegasus implements Flight{
     public Pegasus(){
     }
     public String getThing(){
-        return this.pegasus;
+        return "pegasus";
     }
 
     @Override

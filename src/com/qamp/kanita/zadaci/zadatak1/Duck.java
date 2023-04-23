@@ -7,7 +7,7 @@ public class Duck implements Flight, Swim {
     }
 
     public String getThing(){
-        return this.duck;
+        return "duck";
     }
 
     @Override

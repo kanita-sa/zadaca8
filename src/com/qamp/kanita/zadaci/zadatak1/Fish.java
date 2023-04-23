@@ -8,7 +8,7 @@ public class Fish implements Swim {
     }
 
     public String getThing() {
-        return fish;
+        return "fish";
     }
 
     @Override

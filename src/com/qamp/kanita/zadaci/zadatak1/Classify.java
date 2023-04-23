@@ -24,16 +24,16 @@ public class Classify {
     }
 
     public void printFlyingThings(){
-        System.out.println("Things that flies: ");
+        System.out.println("\nThings that flies: ");
         for (Flight thing : thingsThatFlies){
-            System.out.println(thing + " " + thing.fly());
+            System.out.println(thing.getThing() + ": " + thing.fly());
         }
     }
 
     public void printSwimmingThings(){
-        System.out.println("Things that swims: ");
+        System.out.println("\nThings that swims: ");
         for (Swim thing : thingsThatSwims){
-            System.out.println(thing + " " + thing.swim());
+            System.out.println(thing.getThing() + ": " + thing.swim());
         }
     }
 

@@ -8,7 +8,7 @@ public class Plane implements Flight {
     }
 
     public String getThing(){
-        return this.plane;
+        return "plane";
     }
 
     @Override
